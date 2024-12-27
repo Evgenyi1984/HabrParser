@@ -1,0 +1,114 @@
+DEBUG:root:Downloading https://habr.com/ru/all/
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): habr.com:443
+DEBUG:urllib3.connectionpool:https://habr.com:443 "GET /ru/all/ HTTP/11" 302 51
+DEBUG:urllib3.connectionpool:https://habr.com:443 "GET /ru/articles/ HTTP/11" 200 None
+DEBUG:root:Received 338395 bytes b'<!DOCTYPE html>\n<html lang="ru">\n\n  <head>\n  '...
+DEBUG:root:20 article nodes found
+DEBUG:root:Downloading https://habr.com/ru/companies/X5Tech/articles/869750/
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): habr.com:443
+DEBUG:urllib3.connectionpool:https://habr.com:443 "GET /ru/companies/X5Tech/articles/869750/ HTTP/11" 200 None
+DEBUG:root:Received 303802 bytes b'<!DOCTYPE html>\n<html lang="ru">\n\n  <head>\n  '...
+DEBUG:root:Skipping article https://habr.com/ru/companies/X5Tech/articles/869750/ Temporal Fusion Transform
+DEBUG:root:Downloading https://habr.com/ru/companies/monq/articles/870284/
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): habr.com:443
+DEBUG:urllib3.connectionpool:https://habr.com:443 "GET /ru/companies/monq/articles/870284/ HTTP/11" 200 None
+DEBUG:root:Received 107922 bytes b'<!DOCTYPE html>\n<html lang="ru">\n\n  <head>\n  '...
+DEBUG:charset_normalizer:Encoding detection: utf_8 is most likely the one.
+DEBUG:root:Skipping article https://habr.com/ru/companies/monq/articles/870284/ Monq поздравляет! С Новым
+DEBUG:root:Article preview <p> not found <article class="tm-articles-list__item" data-
+DEBUG:root:Downloading https://habr.com/ru/companies/ruvds/articles/851908/
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): habr.com:443
+DEBUG:urllib3.connectionpool:https://habr.com:443 "GET /ru/companies/ruvds/articles/851908/ HTTP/11" 200 None
+DEBUG:root:Received 151167 bytes b'<!DOCTYPE html>\n<html lang="ru">\n\n  <head>\n  '...
+DEBUG:root:Skipping article https://habr.com/ru/companies/ruvds/articles/851908/ Обзор на разнообразные ин
+DEBUG:root:Downloading https://habr.com/ru/articles/869522/
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): habr.com:443
+DEBUG:urllib3.connectionpool:https://habr.com:443 "GET /ru/articles/869522/ HTTP/11" 200 None
+DEBUG:root:Received 126135 bytes b'<!DOCTYPE html>\n<html lang="ru">\n\n  <head>\n  '...
+DEBUG:root:Skipping article https://habr.com/ru/articles/869522/ Как я узнал данные 70 тыс
+DEBUG:root:Downloading https://habr.com/ru/articles/870278/
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): habr.com:443
+DEBUG:urllib3.connectionpool:https://habr.com:443 "GET /ru/articles/870278/ HTTP/11" 200 None
+DEBUG:root:Received 128276 bytes b'<!DOCTYPE html>\n<html lang="ru">\n\n  <head>\n  '...
+DEBUG:charset_normalizer:Encoding detection: Found utf_8 as plausible (best-candidate) for content. With 0 alternatives.
+DEBUG:root:Skipping article https://habr.com/ru/articles/870278/ Сколько денег приносит од
+DEBUG:root:Downloading https://habr.com/ru/articles/870274/
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): habr.com:443
+DEBUG:urllib3.connectionpool:https://habr.com:443 "GET /ru/articles/870274/ HTTP/11" 200 None
+DEBUG:root:Received 126910 bytes b'<!DOCTYPE html>\n<html lang="ru">\n\n  <head>\n  '...
+DEBUG:root:Skipping article https://habr.com/ru/articles/870274/ Немного статистики о выго
+DEBUG:root:Downloading https://habr.com/ru/companies/ru_mts/articles/870266/
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): habr.com:443
+DEBUG:urllib3.connectionpool:https://habr.com:443 "GET /ru/companies/ru_mts/articles/870266/ HTTP/11" 200 None
+DEBUG:root:Received 169276 bytes b'<!DOCTYPE html>\n<html lang="ru">\n\n  <head>\n  '...
+DEBUG:root:Skipping article https://habr.com/ru/companies/ru_mts/articles/870266/ Polars vs Pandas: битва т
+DEBUG:root:Downloading https://habr.com/ru/articles/870270/
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): habr.com:443
+DEBUG:urllib3.connectionpool:https://habr.com:443 "GET /ru/articles/870270/ HTTP/11" 200 None
+DEBUG:root:Received 208835 bytes b'<!DOCTYPE html>\n<html lang="ru">\n\n  <head>\n  '...
+DEBUG:root:Skipping article https://habr.com/ru/articles/870270/ Как без проблем получить 
+DEBUG:root:Downloading https://habr.com/ru/articles/870262/
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): habr.com:443
+DEBUG:urllib3.connectionpool:https://habr.com:443 "GET /ru/articles/870262/ HTTP/11" 200 None
+DEBUG:root:Received 109422 bytes b'<!DOCTYPE html>\n<html lang="ru">\n\n  <head>\n  '...
+DEBUG:charset_normalizer:Encoding detection: utf_8 is most likely the one.
+DEBUG:root:Skipping article https://habr.com/ru/articles/870262/ Как организовать библиоте
+DEBUG:root:Downloading https://habr.com/ru/companies/vtb/articles/866446/
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): habr.com:443
+DEBUG:urllib3.connectionpool:https://habr.com:443 "GET /ru/companies/vtb/articles/866446/ HTTP/11" 200 None
+DEBUG:root:Received 116790 bytes b'<!DOCTYPE html>\n<html lang="ru">\n\n  <head>\n  '...
+DEBUG:charset_normalizer:Encoding detection: utf_8 is most likely the one.
+DEBUG:root:Skipping article https://habr.com/ru/companies/vtb/articles/866446/ Через тернии к Омни. Эпиз
+DEBUG:root:Article preview <p> not found <article class="tm-articles-list__item" data-
+DEBUG:root:Downloading https://habr.com/ru/companies/timeweb/articles/869540/
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): habr.com:443
+DEBUG:urllib3.connectionpool:https://habr.com:443 "GET /ru/companies/timeweb/articles/869540/ HTTP/11" 200 None
+DEBUG:root:Received 147880 bytes b'<!DOCTYPE html>\n<html lang="ru">\n\n  <head>\n  '...
+DEBUG:charset_normalizer:Encoding detection: Found utf_8 as plausible (best-candidate) for content. With 0 alternatives.
+DEBUG:root:Skipping article https://habr.com/ru/companies/timeweb/articles/869540/ Новогодняя гирлянда любит
+DEBUG:root:Downloading https://habr.com/ru/articles/870254/
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): habr.com:443
+DEBUG:urllib3.connectionpool:https://habr.com:443 "GET /ru/articles/870254/ HTTP/11" 200 None
+DEBUG:root:Received 112454 bytes b'<!DOCTYPE html>\n<html lang="ru">\n\n  <head>\n  '...
+DEBUG:charset_normalizer:Encoding detection: utf_8 is most likely the one.
+DEBUG:root:Skipping article https://habr.com/ru/articles/870254/ Решаем проблему устареван
+DEBUG:root:Article preview <p> not found <article class="tm-articles-list__item" data-
+DEBUG:root:Downloading https://habr.com/ru/companies/omk-it/articles/870242/
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): habr.com:443
+DEBUG:urllib3.connectionpool:https://habr.com:443 "GET /ru/companies/omk-it/articles/870242/ HTTP/11" 200 None
+DEBUG:root:Received 162853 bytes b'<!DOCTYPE html>\n<html lang="ru">\n\n  <head>\n  '...
+DEBUG:root:Skipping article https://habr.com/ru/companies/omk-it/articles/870242/ ОМК — когда у нас стало з
+DEBUG:root:Downloading https://habr.com/ru/articles/870252/
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): habr.com:443
+DEBUG:urllib3.connectionpool:https://habr.com:443 "GET /ru/articles/870252/ HTTP/11" 200 None
+DEBUG:root:Received 128616 bytes b'<!DOCTYPE html>\n<html lang="ru">\n\n  <head>\n  '...
+DEBUG:root:Skipping article https://habr.com/ru/articles/870252/ 13. Nix в пилюлях: Паттер
+DEBUG:root:Downloading https://habr.com/ru/companies/gazprombank/articles/870060/
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): habr.com:443
+DEBUG:urllib3.connectionpool:https://habr.com:443 "GET /ru/companies/gazprombank/articles/870060/ HTTP/11" 200 None
+DEBUG:root:Received 118059 bytes b'<!DOCTYPE html>\n<html lang="ru">\n\n  <head>\n  '...
+DEBUG:charset_normalizer:Encoding detection: utf_8 is most likely the one.
+DEBUG:root:Skipping article https://habr.com/ru/companies/gazprombank/articles/870060/ IT-магия на TeamLead Conf
+DEBUG:root:Article preview <p> not found <article class="tm-articles-list__item" data-
+DEBUG:root:Downloading https://habr.com/ru/companies/selectel/articles/867972/
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): habr.com:443
+DEBUG:urllib3.connectionpool:https://habr.com:443 "GET /ru/companies/selectel/articles/867972/ HTTP/11" 200 None
+DEBUG:root:Received 222403 bytes b'<!DOCTYPE html>\n<html lang="ru">\n\n  <head>\n  '...
+DEBUG:root:Skipping article https://habr.com/ru/companies/selectel/articles/867972/ Пять элементов Inference-
+DEBUG:root:Downloading https://habr.com/ru/articles/870076/
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): habr.com:443
+DEBUG:urllib3.connectionpool:https://habr.com:443 "GET /ru/articles/870076/ HTTP/11" 200 None
+DEBUG:root:Received 104820 bytes b'<!DOCTYPE html>\n<html lang="ru">\n\n  <head>\n  '...
+DEBUG:charset_normalizer:Encoding detection: Found utf_8 as plausible (best-candidate) for content. With 0 alternatives.
+DEBUG:root:Skipping article https://habr.com/ru/articles/870076/ Психология, Риск и Страте
+DEBUG:root:Downloading https://habr.com/ru/companies/yandex360/articles/855390/
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): habr.com:443
+DEBUG:urllib3.connectionpool:https://habr.com:443 "GET /ru/companies/yandex360/articles/855390/ HTTP/11" 200 None
+DEBUG:root:Received 186696 bytes b'<!DOCTYPE html>\n<html lang="ru">\n\n  <head>\n  '...
+DEBUG:root:Skipping article https://habr.com/ru/companies/yandex360/articles/855390/ Выбор уникального идентиф
+DEBUG:root:Downloading https://habr.com/ru/companies/mvideo/articles/870250/
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): habr.com:443
+DEBUG:urllib3.connectionpool:https://habr.com:443 "GET /ru/companies/mvideo/articles/870250/ HTTP/11" 200 None
+DEBUG:root:Received 132403 bytes b'<!DOCTYPE html>\n<html lang="ru">\n\n  <head>\n  '...
+DEBUG:charset_normalizer:Encoding detection: utf_8 is most likely the one.
+DEBUG:root:Skipping article https://habr.com/ru/companies/mvideo/articles/870250/ Ответственный ИИ, повсеме

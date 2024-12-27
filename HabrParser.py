@@ -7,7 +7,7 @@ from ArticleExtractor import get_articles
 
 STARL_URL = 'https://habr.com/ru/all/'
 
-KEYWORDS = ('python', 'дизайн', 'фото', 'web', 'потому')
+KEYWORDS = ('python', 'дизайн', 'фото')
 
 
 if __name__ == "__main__":

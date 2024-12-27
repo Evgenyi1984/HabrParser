@@ -3,6 +3,7 @@
 import requests
 from bs4 import BeautifulSoup
 from os import path, makedirs
+import LoggingDeco
 
 
 # set up logging
@@ -57,7 +58,7 @@ def check_content(keywords, url):
     logging.debug(f"Failed to load article {url}")
     return False
 
-
+@LoggingDeco.logger('DecoLogger.log')
 def get_articles(start_url, keywords):
     result = []
     soup = get_page(start_url)

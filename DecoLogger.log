@@ -1,0 +1,1 @@
+[2024-12-27 12:29:49.854503] Function 'get_articles' was called with args: ('https://habr.com/ru/all/', ('python', 'дизайн', 'фото')), kwargs: {}. Returned: [('2024-12-27, 10:37', 'Дизайн за 5 минут. Дайджест декабря 2024', 'https://habr.com/ru/companies/garage8/articles/870248/')]
